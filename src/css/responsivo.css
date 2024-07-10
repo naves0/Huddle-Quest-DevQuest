@@ -1,0 +1,58 @@
+@media(max-width: 375px){
+    body{
+        background-image: url('../images/bg-mobile.svg');
+        width: 100%;
+        margin: 0;
+    }
+    
+    .header{
+        padding: 30px;
+    }
+
+    .header .logo{
+        width: 150px;
+    }
+
+    .main{
+        flex-direction: column;
+        text-align: center;
+        padding: 0 30px;
+    }
+
+    .main .informacoes{
+        margin-top: 40px;
+        padding: 0;
+    }
+
+    .main .informacoes .titulo{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .main .informacoes .descricao{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .main .informacoes .btn-register{
+        padding: 10px 80px;
+        font-size: 16px;
+    }
+
+    .footer{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .footer .social a{
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer .social a .fab{
+        font-size: 18px;
+        transition: 0.3s;
+    }
+}
